@@ -11,7 +11,7 @@ public class ConnectionFactory {
 
     public Connection createConnection() throws Exception{
 
-        host = "jdbc:postgresql://localhost:5432/bd-apicontatos";
+        host = "jdbc:postgresql://localhost:5435/bd-apicontatos";
         user = "software";
         pass = "software";
 

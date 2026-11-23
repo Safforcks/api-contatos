@@ -5,7 +5,7 @@ services:
     image: postgres:16
     restart: unless-stopped
     environment:
-      POSTGRES_DB: bd-apiclientes
+      POSTGRES_DB: bd-apicontatos
       POSTGRES_USER: software
       POSTGRES_PASSWORD: software
     ports:
